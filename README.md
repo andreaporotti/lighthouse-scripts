@@ -20,7 +20,7 @@ On Windows, a portable version can be used by creating this environment variable
 
 Global installation:
 
-```PowerShell
+```
 npm install -g lighthouse
 ```
 
@@ -28,7 +28,7 @@ npm install -g lighthouse
 
 To check that everything is working, scan a random URL:
 
-```PowerShell
+```
 lighthouse https://github.com/
 ```
 
@@ -40,7 +40,7 @@ Download or clone this repository in a folder.
 
 If you are going to use the Bash version, make the script executable:
 
-```sh
+```
 chmod u+x lh.sh
 ```
 
@@ -60,13 +60,13 @@ By default the desktop command will use a screen width of "1440px", while the mo
 
 Run the script:
 
-```sh
+```
 ./lh.sh
 ```
 
 or
 
-```PowerShell
+```
 .\lh.ps1
 ```
 
