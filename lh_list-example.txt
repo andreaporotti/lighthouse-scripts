@@ -1,0 +1,8 @@
+# GitHub
+https://github.com/
+https://github.com/features
+https://docs.github.com/en
+
+# Tailwind CSS
+https://tailwindcss.com/
+https://tailwindcss.com/docs/installation
