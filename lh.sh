@@ -4,8 +4,8 @@
 urlList="lh_list.txt"
 
 # Setup Lighthouse commands
-desktopCommand="lighthouse {{url}} --preset=desktop --form-factor=desktop --screenEmulation.mobile=false --screenEmulation.width=1440 --screenEmulation.height=800 --screenEmulation.deviceScaleFactor=1.75 --chrome-flags=""--headless"" --quiet --output-path=./{{reportName}}.html"
-mobileCommand="lighthouse {{url}} --form-factor=mobile --screenEmulation.mobile=true --screenEmulation.width=360 --screenEmulation.height=800 --screenEmulation.deviceScaleFactor=1.75 --chrome-flags=""--headless"" --quiet --output-path=./{{reportName}}.html"
+desktopCommand="lighthouse {{url}} --preset=desktop --form-factor=desktop --screenEmulation.mobile=false --screenEmulation.width=1440 --screenEmulation.height=800 --screenEmulation.deviceScaleFactor=1 --chrome-flags=""--headless --ignore-certificate-errors"" --quiet --output-path=./{{reportName}}.html"
+mobileCommand="lighthouse {{url}} --form-factor=mobile --screenEmulation.mobile=true --screenEmulation.width=360 --screenEmulation.height=800 --screenEmulation.deviceScaleFactor=1 --chrome-flags=""--headless --ignore-certificate-errors"" --quiet --output-path=./{{reportName}}.html"
 
 # Parse url list
 while IFS= read -r url
